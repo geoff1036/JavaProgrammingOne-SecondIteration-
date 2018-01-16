@@ -1,15 +1,21 @@
+//Geoffrey Fuller
+package Chapter5;
+
+import java.util.Scanner;
+
 /**
  * Program allows user to vote
  * @author Geoffrey Fuller
  */
-package Chapter5;
-import java.util.Scanner;
-/**
-* Main Method
-*
-* @param args arguments from command line prompt
-*/
+
 public class P5 {
+
+    /**
+    * Main Method
+    *
+    * @param args arguments from command line prompt
+    */
+    
      public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a Y for yes, an N for no, or a Q to quit voting: ");

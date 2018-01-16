@@ -1,15 +1,23 @@
+//Geoffrey Fuller
+package Chapter6;
+
+import java.util.Scanner;
+
 /**
  * Program allows user to vote
+ * 
  * @author Geoffrey Fuller
  */
-package Chapter6;
-import java.util.Scanner;
-/**
-* Main Method
-*
-* @param args arguments from command line prompt
-*/
+
 public class C6_18 {
+    
+    
+    /**
+    * Main Method
+    *
+    * @param args arguments from command line prompt
+    */
+    
         public static void main (String[] args)
     {
         Scanner input = new Scanner(System.in);	

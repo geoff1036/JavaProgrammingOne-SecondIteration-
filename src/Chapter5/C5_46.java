@@ -1,15 +1,21 @@
+//Geoffrey Fuller
+package Chapter5;
+
+import java.util.Scanner;
+
 /**
  * Reverses a user-inputed string
  * @author Geoffrey Fuller
  */
-package Chapter5;
-import java.util.Scanner;
-/**
-* Main Method
-*
-* @param args arguments from command line prompt
-*/
+
 public class C5_46 {
+    
+    /**
+    * Main Method
+    *
+    * @param args arguments from command line prompt
+    */
+    
         public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);

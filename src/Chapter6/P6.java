@@ -1,17 +1,22 @@
-/**
- * Program applies conversion rates to money
- * @author Geoffrey Fuller
- */
+
 package Chapter6;
 
 import java.util.Scanner;
 
 /**
-* Main Method
-*
-* @param args arguments from command line prompt
-*/
+ * Program applies conversion rates to money
+ * 
+ * @author Geoffrey Fuller
+ */
+
 public class P6 {
+    
+    /**
+    * Main Method
+    *
+    * @param args arguments from command line prompt
+    */
+    
      public static void main(String args[]) 
     {
         Scanner input = new Scanner(System.in);

@@ -1,15 +1,19 @@
+//Geoffrey Fuller
+package Chapter5;
+
+import java.util.Scanner;
 /**
  * Program plays rock paper scissors
+ * 
  * @author Geoffrey Fuller
  */
-package Chapter5;
-/**
-* Main Method
-*
-* @param args arguments from command line prompt
-*/
-import java.util.Scanner;
+
 public class C5_34 {
+    /**
+    * Main Method
+    *
+    * @param args arguments from command line prompt
+    */
         public static void main(String[] args){
         int compWins = 0;
         int userWins = 0;
