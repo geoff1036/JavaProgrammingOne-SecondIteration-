@@ -47,7 +47,12 @@ public class C5_34 {
         }
 
     }
-
+        /**
+         * 
+         * @param hand refers to the choice of the player, or the hand they draw
+         * for rock, paper, scissors
+         * @return handGuess to the main method to be compared to the computer's guess
+         */
     public static String getHand(int hand)
     {
 
@@ -64,7 +69,12 @@ public class C5_34 {
         }
         return handGuess;
     }
-
+        /**
+        * 
+        * @param computer takes the final guess from the computer
+        * @param player takes the final guess from the player
+        * @return the result after comparing the two parameters, who won and who lost
+        */
     public static String getGameStatus(int computer, int player)
     {
         if (computer == player) return "It's a draw";

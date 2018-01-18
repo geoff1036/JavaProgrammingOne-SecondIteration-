@@ -57,7 +57,12 @@ public class P6 {
         }
 
     }
-
+/**
+ * 
+ * @param dollars accepts the amount of money the user is inputting
+ * @param exchangeRate accepts the appropriate exchange rate to convert the "dollars" variable
+ * @return the exchanged "dollars" value
+ */
     public static double exchangeMethod(double dollars, double exchangeRate) 
     {
         if (dollars <= 100) 
